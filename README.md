@@ -30,9 +30,9 @@ Caso as [instituições públicas brasileiras](http://www.portalcooperacao.info.
 
 # Problemática
 No início das atividades de manutenção do front-end do site sistêmico (no SIGAA) do PPGCC, realizou-se uma consulta aos sites das demais unidades da instituição e percebeu-se que:
-* quantidade considerável dos cursos não utilizam qualquer [página personalizada](Documentação nos Sistemas da UFRN).
+* quantidade considerável dos cursos não utilizam qualquer [página personalizada](#documentação-nos-sistemas-da-ufrn).
 * os cursos que utilizam a página personalizada, utilizam apenas [recursos comuns](#modo-visual).
-* não foi encontrado curso que utiliza recursos de [personalização de página](#modo-codigo), com HTML estilizado.
+* não foi encontrado curso que utiliza recursos de [personalização de página](#modo-código), com HTML estilizado.
 
 # O gerador das Páginas de Curso
 Atualmente, os sistemas SIG (na opção *Páginas Web*) utilizam um editor de código web online do tipo [WYSIWYG](https://pt.wikipedia.org/wiki/WYSIWYG) chamado [TinyMCE](https://github.com/tinymce/tinymce), [open-source](https://github.com/tinymce/tinymce/blob/master/LICENSE.TXT) e ainda em desenvolvimento, sendo a versão utilizada nos sistemas SIG a [3.4.9](https://github.com/tinymce/tinymce/releases/tag/3.4.9), de 2012.
@@ -91,7 +91,7 @@ Abaixo foram tabelados links para as documentações dos diferentes níveis de c
 </table>
 
 ## Modos de edição
-No contexto de utilização nos sistemas SIG, a interface de usuário do TinyMCE (versão 3.4.9) disponibiliza dois modos de edição (assim como alguns editores de código WYSIWYG), aqui denominados: o [modo visual](#modo-visual) e o [modo código](#modo-codigo).
+No contexto de utilização nos sistemas SIG, a interface de usuário do TinyMCE (versão 3.4.9) disponibiliza dois modos de edição (assim como alguns editores de código WYSIWYG), aqui denominados: o [modo visual](#modo-visual) e o [modo código](#modo-código).
 
 ### Modo visual
 Nesse modo, o conteúdo é inserido e estilizado diretamente na caixa de texto disponibilizada, na tela de [disponibilizada](https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:portal_coordenador_stricto_sensu:pagina_web:outras_opcoes_do_programa:cadastrar).
@@ -100,7 +100,7 @@ Para utilizá-lo, não são necessários conhecimentos de programação web, bas
 ### Modo código
 Nesse modo, o conteúdo é inserido em uma janela externa, a qual somente lerá código HTML. Para utilizá-lo são necessários conhecimentos de programação web ([HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) e, dependendo da necessidade, [JS](https://en.wikipedia.org/wiki/JavaScript)).
 O conteúdo inserido nesta janela será lido e interpretado pelo TinyMCE como código HTML, CSS e JS, tendo sua aparência demonstrada quando este for submetido (botão `Update`).
-A tecnologia usada neste código deve ser compatível com os padrões web existentes na data [dessa versão do TinyMCE](#o-gerador-das-paginas-de-curso). Padrões referentes ao HTML5 (adotado pela W3C como recomendação em [2014](https://www.w3.org/TR/2014/REC-html5-20141028/)) e posteriores, por exemplo, não são compatíveis.
+A tecnologia usada neste código deve ser compatível com os padrões web existentes na data [dessa versão do TinyMCE](#o-gerador-das-páginas-de-curso). Padrões referentes ao HTML5 (adotado pela W3C como recomendação em [2014](https://www.w3.org/TR/2014/REC-html5-20141028/)) e posteriores, por exemplo, não são compatíveis.
 
 O conteúdo do código aqui inserido pode ser desenvolvido (em editor de código web adequado) considerando-se que está, em uma estrutura convencional de página HTML, dentro de um elemento `<div>`.
 Somente o conteúdo dessa tag `<div>` da página que foi desenvolvida precisa ser inserido na janela do _Modo Código_ do TinyMCE.
@@ -111,7 +111,7 @@ No ambiente do [modo visual](#modo-visual) também é possível escolher, no for
 Além disso, pode-se escolher tanto o título da seção, quanto se ela será acessível por link inserido diretamente no menu "Outras Opções" do site publicado do curso _(marcando "Publicar: Sim")_ e por link _(o usuário clica em um link para esta "Seção Extra")_, ou se será acessível somente por link _(marcando "Publicar: Não)_.
 
 ## Inserção de Imagens
-O uso de imagens no TinyMCE, na versão 3.4.9 instalada no SIGAA da UFRN, não comporta inserção direta no sistema (o usuário não tem a opção de carregar a imagem diretamente no sistema), independente do modo de edição usado da página ([visual](#modo-visual) ou [código](#codigo)). Há duas maneiras de usá-las.
+O uso de imagens no TinyMCE, na versão 3.4.9 instalada no SIGAA da UFRN, não comporta inserção direta no sistema (o usuário não tem a opção de carregar a imagem diretamente no sistema), independente do modo de edição usado da página ([visual](#modo-visual) ou [código](#modo-código)). Há duas maneiras de usá-las.
 
 ### Imagens via URL
 Nessa maneira, as imagens devem já estar upadas em outro local, sendo inseridas através de sua URL. É a maneira padrão de se trabalhar.
@@ -122,7 +122,7 @@ Só se obteve êxito utilizando-se o navegador Mozilla Firefox (dos testados). P
 - acessar a área da edição da página, acessando o modo visual de edição, utilizando o Firefox.
 - clicar (no 'explorador de arquivos') no arquivo da imagem e arrastá-lo para dentro da área de edição do modo visual.
 
-Para utilização de imagens via código na página, depois de inserida, pode-se tanto usar as opções de controle no [modo visual](#modo-visual) (alças de redimensionamento, por exemplo) quanto usar o [modo código](#modo-codigo), sendo que nesta última opção, será revelado que a imagem assim inserida, na verdade, está em formato de código (seu conteúdo será um elemento `<img>` com o atributo `src` com valor começando em `data:image/jpeg;base64,`), seguido dos códigos referentes aos pixels da imagem.
+Para utilização de imagens via código na página, depois de inserida, pode-se tanto usar as opções de controle no [modo visual](#modo-visual) (alças de redimensionamento, por exemplo) quanto usar o [modo código](#modo-código), sendo que nesta última opção, será revelado que a imagem assim inserida, na verdade, está em formato de código (seu conteúdo será um elemento `<img>` com o atributo `src` com valor começando em `data:image/jpeg;base64,`), seguido dos códigos referentes aos pixels da imagem.
 Este método de inserção torna o código da página extenso.
 
 ## Estilização de página
