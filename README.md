@@ -142,13 +142,19 @@ A criação desses templates (e o processo de descoberta da limitação tecnoló
 # Utilização
 Para utilização desses templates, pode ser necessário que a unidade universitária tenha pessoal com familiaridade com programação web.
 Especificamente, as seguintes habilidades são necessárias: HTML intermediário, CSS básico e JavaScript básico.
+Ao usar os arquivos aqui inseridos, considere os comentários nos códigos apenas para fins de orientação. Favor, removê-los antes de publicar o arquivo.
 
 ## Editores de código
 Para configuração / personalização dos templates, pode-se usar qualquer editor de código web.
 O uso de editores de código apropriados facilita bastante o trabalho. Na elaboração destes templates foi utilizado o [VSCode](https://code.visualstudio.com/).
 
 ## Licença
-A estrutura das páginas (estruturas HTML), suas estilizações (conteúdo CSS) e seus comportamentos (os scripts JS) dos templates aqui armazenados estão sob a [licença MIT](LICENSE), mas o conteúdo delas (dados, informações, textos, etc) está com todos os direitos reservados ao PPGCC. 
+A estrutura das páginas (estruturas HTML), suas estilizações (conteúdo CSS) e seus comportamentos (os scripts JS) dos templates aqui armazenados estão sob a [licença MIT](LICENSE), mas o conteúdo delas (dados, informações, textos, etc) está com todos os direitos reservados ao PPGCC.
+Ao utilizar esses modelos de design web personalizados para Páginas de Cursos nos sistemas SIG, submeta um Pull Request a este presente repositório, editando este presente arquivo README.md (no [último tópico](#instituições-e-unidades-que-usam-os-templates-deste-repositório)), para creditar a autoria bem como para organizar-se aqui as referências de aplicação destas interfaces.
 
 # Observação
 A documentação dessa experiência não expressa a opinião da SINFO, unidade administrativa responsável por manter e atualizar os sistemas da UFRN.
+
+# Instituições e unidades que usam os templates deste repositório
+## UFRN
+* [PPGCC](http://www.posgraduacao.ufrn.br/ppgcc)
