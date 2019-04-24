@@ -150,6 +150,7 @@ O uso de editores de código apropriados facilita bastante o trabalho. Na elabor
 
 ## Licença
 A estrutura das páginas (estruturas HTML), suas estilizações (conteúdo CSS) e seus comportamentos (os scripts JS) dos templates aqui armazenados estão sob a [licença MIT](LICENSE), mas o conteúdo delas (dados, informações, textos, etc) está com todos os direitos reservados ao PPGCC.
+
 Ao utilizar esses modelos de design web personalizados para Páginas de Cursos nos sistemas SIG, submeta um Pull Request a este presente repositório, editando este presente arquivo README.md (no [último tópico](#instituições-e-unidades-que-usam-os-templates-deste-repositório)), para creditar a autoria bem como para organizar-se aqui as referências de aplicação destas interfaces.
 
 # Observação
