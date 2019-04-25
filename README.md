@@ -56,13 +56,13 @@ Abaixo foram tabelados links para as documentações dos diferentes níveis de c
   </thead>
   <tbody>
     <tr>
-      <td>Técnico Integrado</td>
+      <td>Técnico (Forma Integrada)</td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:integrado:curso:pagina_web:gerenciar_portais_publicos#alterar_detalhes">Ambos</a></td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:integrado:curso:pagina_web:gerenciar_portais_publicos#gerenciar_noticias">Ambos</a></td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:integrado:curso:pagina_web:gerenciar_portais_publicos#gerenciar_secoes_extras">Ambos</a></td>
     </tr>
     <tr>
-      <td>Técnico Subsequente</td>
+      <td>Técnico (Forma Concomitante ou Subsequente)</td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:tecnico:curso:pagina_web:gerenciar_portais_publicos#alterar_detalhes">Movo Visual</a></td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:tecnico:curso:pagina_web:gerenciar_portais_publicos#gerenciar_noticias">Ambos</a></td>
       <td><a href="https://docs.info.ufrn.br/doku.php?id=suporte:manuais:sigaa:tecnico:curso:pagina_web:gerenciar_portais_publicos#gerenciar_secoes_extras">Ambos</a></td>
